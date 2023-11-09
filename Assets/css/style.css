@@ -183,6 +183,11 @@ article {
     font-size: 25px;
 }
 
+@media screen and (max-width: 450px) {
+    .card1 img {
+        max-height: 120px;
+    }
+}
 
 @media screen and (max-width: 750px){
     header {
