@@ -1,0 +1,254 @@
+body {
+    background-color: #272925;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    border-bottom: solid white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999999;
+}
+
+header h1 {
+    position: fixed;
+    left: 0;
+    top: -55px;
+    font-size: 70px;
+    font-family:'Colonna MT Regular';
+    font-weight: 100;
+    padding: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    padding-right: 30px;
+    padding-left: 550px;
+}
+
+header nav a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+}
+
+header nav a:hover{
+    background-color: gray;
+    color: black;
+}
+
+header nav a:visited{
+    color: white;
+}
+
+
+main {
+    padding-top: 60px;
+    margin: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: dotted white;
+}
+
+article {
+    padding: 20px;
+    border: 5px solid black;
+    background-color: rgb(49, 77, 87);
+}
+
+#bio {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#bio p {
+    padding: 30px 50px 30px 20px;
+    font-size: 20px;
+}
+
+#bio p + img {
+    width: 200px;
+    border-radius: 10px;
+    filter: blur(20px);
+    padding: 20px;
+}
+
+#bio img + img {
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    right: 80px;
+}
+
+#work {
+    display: flex;
+    flex-direction: row;
+    flex: 1, 0, 400px;
+    justify-content: space-evenly;
+}
+
+#secondary {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex: 1, 0, 500px;
+    flex-wrap: wrap;
+}
+
+#work section {
+    padding: 10px;
+}
+
+.card1 {
+    height: 130px;
+}
+
+.card1 img{
+    max-height: 220px;
+}
+
+#work p{
+    color: white;
+    width: fit-content;
+    background-color: rgb(23, 23, 23);
+    padding: 5px;
+    position: relative;
+    left: 0;
+    top: -60px;
+    z-index: 99;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card img {
+    max-height: 90px;
+    
+}
+
+.card img::after {
+    content: '\2766';
+    color: #8ac4ff;
+    padding: 1%;
+    font-family: cursive;
+  }
+
+#work img {
+    border: 7px solid rgb(23, 23, 23);
+}
+
+#work img:hover {
+    transform: scale(1.1,1.1)
+}
+
+#contact p {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact > * {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info a {
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.info a:hover{
+    background-color: gray;
+    color: black;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 750px){
+    header {
+        position: static;
+        width: 100%;
+    }
+    
+    header h1 {
+        position: static;
+        text-align: center;
+        margin: 0;
+    }
+
+    header nav{
+        padding: 0;
+        
+    }
+
+    #bio {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #bio p + img {
+        display: none;
+    }
+
+    #bio img + img {
+        position: static;
+    }
+
+
+
+    #work {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .card1 img {
+        height: 160px;
+    }
+
+    #secondary {
+        display: inline-block;
+        position: relative;
+        top: 80px;
+    }
+
+    .info a {
+        padding: 0;
+    }
+}
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.footer h3 {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
