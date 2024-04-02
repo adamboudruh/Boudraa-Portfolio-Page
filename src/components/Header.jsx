@@ -1,12 +1,14 @@
 import Navigation from "./Navigation";
 
 function Header() {
-    <header>
+    return (    
+        <header>
         <div className="title">
                 <h2>Adam&apos;s Portfolio</h2>
         </div>
         <Navigation />
-    </header>
-}
+        </header>
+    )
+    }
 
 export default Header;

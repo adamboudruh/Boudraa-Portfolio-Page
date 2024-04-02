@@ -14,12 +14,12 @@ function Footer() {
     
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        console.log(``)
+        console.log(`Name: ${formName}\nEmail: ${email}\nMessage: ${message}`);
     };
 
 
     return (
-      <form id="contact-form" action="">
+      <form id="contact-form" action="" onSubmit={handleFormSubmit}>
 
         <label htmlFor="form-name">Name:</label>
         <input 
@@ -45,7 +45,7 @@ function Footer() {
             onChange={handleInputChange}
         />
 
-        <button type="submit" onSubmit={handleFormSubmit}>Submit</button>
+        <button type="submit" >Submit</button>
       </form>  
     )
     
