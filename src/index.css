@@ -115,13 +115,13 @@ footer img {
   margin: 5px 10px 5px 10px;
 }
 
-#about-me-header {
+.page-header {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-#about-me-header h3 {
+h3 {
   font-size: 70px;
   margin: 5px 0px 40px 0px;
 }
@@ -155,4 +155,82 @@ footer img {
 #about-body p {
   grid-column: span 12;
   font-size: calc(1.6vw + 10px);;
+}
+
+.project-body a img {
+  max-width: 40px;
+}
+
+.gitlink {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-grow: 1; */
+  flex-shrink: 1;
+  /* flex-wrap: wrap; */
+}
+
+.project-body .card {
+  padding: 0;
+  background: none;
+  border: none;
+  margin: 20px 0px 20px 0px;
+  width: calc(50% - 40px);
+  max-width: 540px;
+  /* max-width: 540px; */
+  
+}
+
+.ss {
+  border-radius: 40px;
+  max-width: 540px;
+  max-height: 300px;
+  transition: all .25s ease 0s;
+}
+
+.container.card:hover .ss {
+  /* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); */
+  filter: blur(1px);
+}
+
+.container.card:hover .project-header {
+  opacity: 1;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 20px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+.project-header a {
+  text-decoration: none;
+  color: black;
+  padding: 0 5px 0 5px;
+  transition: all .25s ease;
+}
+
+.project-header a:hover {
+  font-size: 23px;
+}
+
+.project-header img {
+  transition: all .25s ease;
+}
+
+.project-header img:hover {
+  transform: scale(1.3);
 }

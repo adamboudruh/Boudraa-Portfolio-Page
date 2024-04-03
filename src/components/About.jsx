@@ -3,7 +3,7 @@ import portrait from './../assets/images/adam-portrait.jpg';
 function About() {
     return (
         <div>
-            <div id="about-me-header">
+            <div className='page-header'>
                 <h3>About Me</h3>
             </div>
             <div id="about-body">
