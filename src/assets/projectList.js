@@ -29,6 +29,20 @@ const projects = [
         deployedLink: "https://adamboudruh.github.io/Mallorys_Website/index",
         imgPath: '/src/assets/images/project-ss/kitten.jpg'
     },
+    {
+        id: 5,
+        title: "Weather Dashboard",
+        githubLink: "https://github.com/adamboudruh/Boudraa-Weather-Dashboard",
+        deployedLink: "https://adamboudruh.github.io/Boudraa-Weather-Dashboard/",
+        imgPath: '/src/assets/images/project-ss/weather.png'
+    },
+    {
+        id: 6,
+        title: "Employee Tracker",
+        githubLink: "https://github.com/adamboudruh/Boudraa-Employee-Tracker",
+        deployedLink: "https://github.com/adamboudruh/Boudraa-Employee-Tracker",
+        imgPath: '/src/assets/images/project-ss/employee-tracker.jpg'
+    },
 ]
 
 export default projects;

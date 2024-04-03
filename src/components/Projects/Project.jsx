@@ -4,7 +4,7 @@ function Project({ project: { title, deployedLink, githubLink, imgPath }}) {
     const titleConcat = `${title}`;
     console.log(imgPath);
     return (
-        <div className="container card">
+        <div className="project-container">
             <img src={imgPath} className='ss' alt="screenshot of project" />
             <div className='project-header'>
                 <a href={deployedLink} target="_blank" rel="noopener noreferrer" >{titleConcat}</a>
