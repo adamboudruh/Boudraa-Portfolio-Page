@@ -84,7 +84,7 @@ function Footer() {
     return (
       <div className='contact-container'>
         <form id="contact-form" action="" onSubmit={handleFormSubmit} className={inputError ? 'red-outline' : ''}>
-                <h3>Contact Me</h3>
+                <h3 className='h-font'>Contact Me</h3>
                 <h4 id='input-error' className={inputError ? '' : 'd-none'}>{errorMessage}</h4>
                 <input 
                     placeholder='Name: '

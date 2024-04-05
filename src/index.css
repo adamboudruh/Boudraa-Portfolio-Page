@@ -10,6 +10,20 @@ body {
     animation: color 30s ease-in-out infinite;
 }
 
+.react-p5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  position: absolute;
+  z-index: -1;
+  top: 100px;
+  background-color: #13293100;
+  width: 100vh;
+}
+
 @keyframes color {
   0%{
     background-position: 0 50%;
@@ -58,17 +72,17 @@ nav .animation {
   transition: all .25s ease 0s;
 }
 
-nav .start-about,a:nth-child(1):hover~.animation {
-  left: 2px;
+nav .about,a:nth-child(1):hover~.animation {
+  left: 5px;
 }
-nav .start-projects,a:nth-child(2):hover~.animation {
-  left: 110px;
+nav .projects,a:nth-child(2):hover~.animation {
+  left: 122px;
 }
-nav .start-contact,a:nth-child(3):hover~.animation {
-  left: 225px;
+nav .contact,a:nth-child(3):hover~.animation {
+  left: 245px;
 }
-nav .start-resume,a:nth-child(4):hover~.animation {
-  left: 340px;
+nav .resume,a:nth-child(4):hover~.animation {
+  left: 371px;
 }
 
 nav {
@@ -150,7 +164,7 @@ h3 {
 
 #about-body p {
   grid-column: span 12;
-  font-size: calc(1.6vw + 10px);;
+  font-size: calc(1.4vw + 10px);;
 }
 
 .project-body a img {
@@ -337,6 +351,15 @@ h3 {
 }
 .red {
   color: red!important;
+}
+
+.h-font {
+  font-family:'Playfair Display', Courier, monospace;
+  font-weight: 700;
+}
+
+* {
+  font-family: 'Montserrat', Courier, monospace ;
 }
 
 /* .contact-container {

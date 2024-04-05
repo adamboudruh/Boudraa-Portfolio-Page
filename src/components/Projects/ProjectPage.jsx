@@ -5,7 +5,7 @@ function ProjectPage() {
     return (
         <div>
             <div className="page-header">
-                <h3>Projects</h3>
+                <h3 className="h-font">Projects</h3>
             </div>
             <div className="project-body">
                 {projects.map((project) => (
