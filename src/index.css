@@ -335,6 +335,11 @@ h3 {
     margin-top: 0px!important;
     margin-left: 38px!important;
     line-height: 0!important;
+    align-items: center!important;
+  }
+
+  .contact-container #input-error{
+    margin: 0px 10px 0px 10px!important;
   }
 
   .contact-container textarea {
