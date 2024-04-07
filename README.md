@@ -1,8 +1,27 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Boudraa-Portfolio-Page
 
-Currently, two official plugins are available:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Description
+This website is a single page application built using React. It contains an about me section, a brief list of my projects, a form for getting in touch with me, as well as a link to download my resume.
+
+
+## Table of Contents
+
+- [License](#license)
+
+- [Questions](#questions)
+
+
+## License
+This project is licensed under the terms of the MIT License.
+
+## Questions
+
+GitHub: https://github.com/adamboudruh.
+
+Please direct any questions to my email: [adamboudraa@gmail.com](mailto:adamboudraa@gmail.com).
+
+    
