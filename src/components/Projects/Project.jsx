@@ -1,4 +1,4 @@
-import github from './../../assets/images/icons/github-icon.png';
+import github from './../../../assets/images/icons/github-icon.png';
 
 function Project({ project: { title, deployedLink, githubLink, imgPath }}) {
     const titleConcat = `${title}`;

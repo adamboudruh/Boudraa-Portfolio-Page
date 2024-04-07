@@ -1,4 +1,4 @@
-import projects from "../../assets/projectList";
+import projects from "../../../assets/projectList";
 import Project from "./Project";
 
 function ProjectPage() {

@@ -1,8 +1,8 @@
-import { front_end, back_end, other } from '../assets/proficiencies';
+import { front_end, back_end, other } from './../../assets/proficiencies';
 import React from 'react';
 import Logo from './Logos/Logo';
 
-import sampleResume from './../assets/sampleResume.txt';
+import sampleResume from './../../assets/sampleResume.txt';
 
 function Resume() {
     

@@ -1,4 +1,4 @@
-import portrait from './../assets/images/adam-portrait.jpg';
+import portrait from './../../assets/images/adam-portrait.jpg';
 
 
 function About() {
