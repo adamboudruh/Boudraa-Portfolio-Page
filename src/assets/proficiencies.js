@@ -1,81 +1,93 @@
 export const front_end = [
-    {
-      name: "HTML",
-      path: "./../assets/images/coding-icons/html.svg"
-    },
-    {
-      name: "CSS",
-      path: "./../assets/images/coding-icons/css.svg"
-    },
-    {
-      name: "Javascript",
-      path: "./../assets/images/coding-icons/js.svg"
-    },
-    {
-      name: "Handlebars",
-      path: "./../assets/images/coding-icons/handlebars.svg"
-    },
-    {
-      name: "React",
-      path: "./../assets/images/coding-icons/react.svg"
-    },
-    {
-      name: "jQuery",
-      path: "./../assets/images/coding-icons/jquery.svg"
-    },
-    {
-      name: "Bootstrap",
-      path: "./../assets/images/coding-icons/bootstrap.svg"
-    },
-    {
-      name: "Bulma",
-      path: "./../assets/images/coding-icons/bulma.svg"
-    }
-  ];
-  
-  export const back_end = [
-    {
-      name: "Node",
-      path: "./../assets/images/coding-icons/node.svg"
-    },
-    {
-      name: "MongoDB, Mongoose",
-      path: "./../assets/images/coding-icons/mongo.svg"
-    },
-    {
-      name: "MySQL, Sequelize",
-      path: "./../assets/images/coding-icons/mysql.svg"
-    },
-    {
-      name: "GraphQL",
-      path: "./../assets/images/coding-icons/graphql.svg"
-    },
-    {
-      name: "Express",
-      path: "./../assets/images/coding-icons/express.svg"
-    },
-    {
-      name: "REST",
-      path: "./../assets/images/coding-icons/rest.svg"
-    }
-  ];
-  
-  export const other = [
-    {
-      name: "C",
-      path: "./../assets/images/coding-icons/c.svg"
-    },
-    {
-      name: "Java",
-      path: "./../assets/images/coding-icons/java.svg"
-    },
-    {
-      name: "Git",
-      path: "./../assets/images/coding-icons/git.svg"
-    },
-    {
-      name: "Python",
-      path: "./../assets/images/coding-icons/python.svg"
-    }
-  ];
-  
+  {
+    id: 1,
+    name: "HTML",
+    icon: "html"
+  },
+  {
+    id: 2,
+    name: "CSS",
+    icon: "./../assets/images/coding-icons/css.svg"
+  },
+  {
+    id: 3,
+    name: "Javascript",
+    icon: "./../assets/images/coding-icons/js.svg"
+  },
+  {
+    id: 4,
+    name: "Handlebars",
+    icon: "./../assets/images/coding-icons/handlebars.svg"
+  },
+  {
+    id: 5,
+    name: "React",
+    icon: "./../assets/images/coding-icons/react.svg"
+  },
+  {
+    id: 6,
+    name: "jQuery",
+    icon: "./../assets/images/coding-icons/jquery.svg"
+  },
+  {
+    id: 7,
+    name: "Bootstrap",
+    icon: "./../assets/images/coding-icons/bootstrap.svg"
+  }
+];
+
+export const back_end = [
+  {
+    id: 1,
+    name: "Node",
+    icon: "./../assets/images/coding-icons/node.svg"
+  },
+  {
+    id: 2,
+    name: "MongoDB, Mongoose",
+    icon: "./../assets/images/coding-icons/mongo.svg"
+  },
+  {
+    id: 3,
+    name: "MySQL, Sequelize",
+    icon: "./../assets/images/coding-icons/mysql.svg"
+  },
+  {
+    id: 4,
+    name: "GraphQL",
+    icon: "./../assets/images/coding-icons/graphql.svg"
+  },
+  {
+    id: 5,
+    name: "Express",
+    icon: "./../assets/images/coding-icons/express.svg"
+  },
+  {
+    id: 6,
+    name: "REST",
+    icon: "./../assets/images/coding-icons/rest.svg"
+  }
+];
+
+export const other = [
+  {
+    id: 1,
+    name: "C",
+    icon: "./../assets/images/coding-icons/c.svg"
+  },
+  {
+    id: 2,
+    name: "Java",
+    icon: "./../assets/images/coding-icons/java.svg"
+  },
+  {
+    id: 3,
+    name: "Git",
+    icon: "./../assets/images/coding-icons/git.svg"
+  },
+  {
+    id: 4,
+    name: "Python",
+    icon: "./../assets/images/coding-icons/python.svg"
+  }
+];
