@@ -10,6 +10,82 @@ body {
     animation: color 30s ease-in-out infinite;
 }
 
+@media (min-width: 700px) {
+  header {
+    flex-direction: row!important;
+  }
+
+  nav a {
+  padding: 5px 30px 5px 30px!important;
+  }
+}
+
+@media (max-width: 600px) {
+
+  #about-body {
+    display: flex!important;
+    flex-direction: column!important;
+  }
+
+  header {
+    padding-bottom: 0px!important;
+  }
+
+  #about-body p {
+    padding: 15px!important;
+  }
+
+  #portrait {
+    max-width: 250px!important;
+    margin-bottom: 30px!important;
+  }
+
+  h3 {
+    font-size: 45px!important;
+  }
+
+  .project-body{
+    flex-direction: column!important;
+  }
+
+  .project-container {
+    max-width: 80%!important;
+    height: 210px;
+  }
+
+  .ss {
+    height: 180px!important;
+  }
+
+  .project-header {
+    font-size: 18px!important;
+    left: 12px!important;
+    bottom: 45px!important;
+  }
+  .project-header img {
+    max-width: 30px!important;
+  }
+
+  div.animation {
+    display: none!important;
+  }
+
+  nav a:active {
+    background-color: black!important;
+    border-radius: 20px;
+  }
+
+  .proficiencies {
+    flex-direction: column!important;
+    justify-content: center!important;
+  }
+
+  .proficiencies h4 {
+    font-size: 23px!important;
+  }
+}
+
+
 .react-p5 {
   display: flex;
   justify-content: center;
@@ -54,7 +130,7 @@ header {
   justify-content: space-between;
   padding: 30px;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 10vh;
   background: linear-gradient(to bottom, rgba(38, 70, 83, 1) , rgba(38, 70, 83, 0));
 }
@@ -99,7 +175,7 @@ nav {
 nav a {
   z-index: 1;
   position: relative;
-  padding: 5px 30px 5px 30px;
+  padding: 5px 10px 5px 10px;
   /* margin: 0px 20px 0px 20px; */
   /* text-decoration: none; */
   color: white;
@@ -238,6 +314,43 @@ h3 {
   transform: scale(1.3);
 }
 
+@media (max-width: 600px) {
+  .contact-container form {
+    width: 320px!important;
+  }
+
+  .contact-container input {
+    margin: 0 0 0 0!important;
+    width: 240px!important;
+    font-size: 15px!important;
+  }
+
+  .contact-container h3 {
+    margin-top: 40px!important;
+    line-height: 0!important;
+  }
+
+  .contact-container h4 {
+    font-size: 20px!important;
+    margin-top: 0px!important;
+    margin-left: 38px!important;
+    line-height: 0!important;
+  }
+
+  .contact-container textarea {
+    min-width: 240px!important;
+  }
+
+  .contact-container #input-error {
+    margin-top: 15px!important;
+    line-height: 1!important;
+  }
+
+  .resume-link {
+    margin-bottom: 25px!important;
+  }
+}
+
 .contact-container {
   width: 100%;
   display: flex;
@@ -345,7 +458,6 @@ h3 {
   display: none;
 }
 
-
 .red-p::placeholder{
   color: red;
 }
@@ -364,6 +476,7 @@ h3 {
 
 .proficiencies svg {
   max-width: 35px;
+  margin-right: 15px;
 }
 
 .proficiencies {
@@ -384,4 +497,19 @@ h3 {
 .resume-link {
   text-align: center;
   margin-bottom: 40px;
+}
+
+.proficiencies ul {
+  list-style: none;
+  padding: 0;
+}
+
+.proficiencies h4 {
+  font-size: 30px;
+}
+
+.proficiencies li {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px 0px 5px 0px;
 }

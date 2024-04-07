@@ -61,11 +61,6 @@ export const back_end = [
     id: 5,
     name: "Express",
     icon: "./../assets/images/coding-icons/express.svg"
-  },
-  {
-    id: 6,
-    name: "REST",
-    icon: "./../assets/images/coding-icons/rest.svg"
   }
 ];
 

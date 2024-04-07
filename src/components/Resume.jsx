@@ -1,7 +1,8 @@
 import { front_end, back_end, other } from '../assets/proficiencies';
 import React from 'react';
-import sprite from './../assets/images/coding-icons/sprite.svg';
 import Logo from './Logos/Logo';
+
+import sampleResume from './../assets/sampleResume.txt';
 
 function Resume() {
     
@@ -10,7 +11,7 @@ function Resume() {
     return (
         <div>
           <h3 className='page-header h-font resume'>Resume</h3>
-            <h6 className='resume-link'>Here you can download a copy of my <a href="">resume</a></h6>
+            <h6 className='resume-link'>Click here to download a copy of <a download="Resume" href={sampleResume}>my resume</a>.</h6>
             <div className='proficiencies'>
               <div className='front-end'>
                 <h4>Front-End Proficiencies</h4>
