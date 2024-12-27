@@ -5,11 +5,6 @@ import wife from '../assets/images/project-ss/kitten.jpg';
 import weather from '../assets/images/project-ss/weather.png';
 import employee from '../assets/images/project-ss/employee-tracker.jpg';
 
-
-
-
-
-
 const projects = [
     {
         id: 1,
