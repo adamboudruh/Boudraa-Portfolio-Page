@@ -8,7 +8,7 @@
 This website is a single page application built using React. It contains an about me section, a brief list of my projects, a form for getting in touch with me, as well as a link to download my resume.
 
 Link to deployed site:
-https://poetic-pasca-394afb.netlify.app/
+[Portfolio Link](https://boudraa-portfolio.netlify.app/)
 ![Screenshot of the website](./assets/images/screenshot.png)
 
 
