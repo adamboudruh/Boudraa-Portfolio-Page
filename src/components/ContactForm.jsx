@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import emailjs from 'emailjs-com'
 
 function Footer() {
     const [formName, setName] = useState('');
@@ -11,10 +12,10 @@ function Footer() {
     const [msgError, setMsgError] = useState(false);
 
     useEffect(() => {
-        console.log(`nameError: ${nameError}`);
-        console.log(`emailError: ${emailError}`);
-        console.log(`msgError: ${msgError}`);
-        console.log(`inputError: ${inputError}\n\n\n`);
+        // console.log(`nameError: ${nameError}`);
+        // console.log(`emailError: ${emailError}`);
+        // console.log(`msgError: ${msgError}`);
+        // console.log(`inputError: ${inputError}\n\n\n`);
       }, [nameError, emailError, msgError, inputError]);
     
     const handleInputChange = (e) => {
@@ -29,7 +30,7 @@ function Footer() {
         if (checkEmail()) {
             setError(false);
             setEmailError(false);
-            console.log(`Name: ${formName}\nEmail: ${email}\nMessage: ${message}`);
+            sendEmail(formName, email, message);
         }
         else{
             setError(true);
@@ -44,7 +45,23 @@ function Footer() {
         const check = emailRegex.test(email);
         console.log(check);
         return check;
-    }
+    };
+
+    const sendEmail = (formName, email, message) => {
+        const templateParams = {
+            from_name: formName,
+            from_email: email,
+            message: message,
+        };
+
+        emailjs.send("service_2t0af05", "template_d6555wk", templateParams, 'yRTIDpPZgDYxzzbBs')
+            .then((response) => {
+              console.log('SUCCESS:', response.status, response.text);
+            })
+            .catch((err) => {
+              console.error('FAILURE:', err);
+            });
+    };
 
     const handleBlur = (e) => {
         e.preventDefault();
