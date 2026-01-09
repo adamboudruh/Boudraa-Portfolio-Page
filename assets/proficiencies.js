@@ -28,6 +28,11 @@ export const front_end = [
     id: 6,
     name: "Bootstrap",
     icon: "./../assets/images/coding-icons/bootstrap.svg"
+  },
+  {
+    id: 7,
+    name: "TypeScript",
+    icon: "./../assets/images/coding-icons/typescript.svg" 
   }
 ];
 
@@ -98,5 +103,10 @@ export const other = [
     id: 6,
     name: "Azure",
     icon: "./../assets/images/coding-icons/azure.svg"
+  },
+  {
+    id: 7,
+    name: "DevOps",
+    icon: "./../assets/images/coding-icons/devops.svg"
   }
 ];

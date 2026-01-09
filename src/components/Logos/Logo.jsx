@@ -20,6 +20,8 @@ import SqlServer from './Icons/SqlServer';
 import Azure from './Icons/Azure';
 import CSharp from './Icons/CSharp';
 import MaterialUI from './Icons/MaterialUI';
+import Ts from './Icons/Ts';
+import DevOps from './Icons/Devops';
 
 function Logo(props) {
   switch(props.name) {
@@ -65,6 +67,10 @@ function Logo(props) {
       return <CSharp />;
     case 'Material UI':
       return <MaterialUI />;
+    case 'TypeScript':
+      return <Ts />;
+    case 'DevOps':
+      return <DevOps />;
     default:
       return null;
   }
