@@ -2,7 +2,7 @@ import { front_end, back_end, other } from './../../assets/proficiencies';
 import React from 'react';
 import Logo from './Logos/Logo';
 
-import sampleResume from './../../assets/Adam_Boudraa_Resume.pdf';
+import resume from './../../assets/Adam_Boudraa_Resume.pdf';
 
 function Resume() {
     
@@ -11,7 +11,7 @@ function Resume() {
     return (
         <div>
           <h3 className='page-header h-font resume'>Resume</h3>
-            <h6 className='resume-link'>Click here to download a copy of <a download="Adam_Boudraa_Resume" href={sampleResume}>my resume</a>.</h6>
+            <h6 className='resume-link'>Click here to download a copy of <a download="Adam_Boudraa_Resume" href={resume}>my resume</a>.</h6>
             <div className='proficiencies'>
               <div className='front-end'>
                 <h4>Front-End Proficiencies</h4>
