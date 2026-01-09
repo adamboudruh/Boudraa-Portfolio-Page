@@ -8,9 +8,6 @@ function Footer() {
             <a href="https://github.com/adamboudruh" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="github profile" />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <img src={twitter} alt="twitter profile" />
-            </a>
             <a href="https://www.linkedin.com/in/adam-boudraa-17877525a/" target="_blank" rel="noopener noreferrer">
                 <img src={linkedin} alt="linkedin profile" />
             </a>

@@ -16,21 +16,16 @@ export const front_end = [
   },
   {
     id: 4,
-    name: "Handlebars",
-    icon: "./../assets/images/coding-icons/handlebars.svg"
-  },
-  {
-    id: 5,
     name: "React",
     icon: "./../assets/images/coding-icons/react.svg"
   },
   {
-    id: 6,
-    name: "jQuery",
-    icon: "./../assets/images/coding-icons/jquery.svg"
+    id: 5,
+    name: "Material UI",
+    icon: "./../assets/images/coding-icons/materialui.svg"
   },
   {
-    id: 7,
+    id: 6,
     name: "Bootstrap",
     icon: "./../assets/images/coding-icons/bootstrap.svg"
   }
@@ -43,22 +38,31 @@ export const back_end = [
     icon: "./../assets/images/coding-icons/node.svg"
   },
   {
-    id: 2,
+    id: 2, name: ".NET Core",
+    icon: "./../assets/images/coding-icons/dotnet.svg"
+  },
+  {
+    id: 3,
     name: "MongoDB, Mongoose",
     icon: "./../assets/images/coding-icons/mongo.svg"
   },
   {
-    id: 3,
+    id: 4,
     name: "MySQL, Sequelize",
     icon: "./../assets/images/coding-icons/mysql.svg"
   },
   {
-    id: 4,
+    id: 5,
+    name: "MS SQL Server",
+    icon: "./../assets/images/coding-icons/sqlserver.svg"
+  },
+  {
+    id: 6,
     name: "GraphQL",
     icon: "./../assets/images/coding-icons/graphql.svg"
   },
   {
-    id: 5,
+    id: 7,
     name: "Express",
     icon: "./../assets/images/coding-icons/express.svg"
   }
@@ -72,17 +76,27 @@ export const other = [
   },
   {
     id: 2,
+    name: "CSharp",
+    icon: "./../assets/images/coding-icons/csharp.svg"
+  },
+  {
+    id: 3,
     name: "Java",
     icon: "./../assets/images/coding-icons/java.svg"
   },
   {
-    id: 3,
+    id: 4,
     name: "Git",
     icon: "./../assets/images/coding-icons/git.svg"
   },
   {
-    id: 4,
+    id: 5,
     name: "Python",
     icon: "./../assets/images/coding-icons/python.svg"
+  },
+  {
+    id: 6,
+    name: "Azure",
+    icon: "./../assets/images/coding-icons/azure.svg"
   }
 ];

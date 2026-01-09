@@ -2,7 +2,7 @@ import { front_end, back_end, other } from './../../assets/proficiencies';
 import React from 'react';
 import Logo from './Logos/Logo';
 
-import sampleResume from './../../assets/Adam_Boudraa_Resume.docx.pdf';
+import sampleResume from './../../assets/Adam_Boudraa_Resume.pdf';
 
 function Resume() {
     

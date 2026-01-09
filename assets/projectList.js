@@ -5,11 +5,19 @@ import win from '../assets/images/project-ss/winning-edge.png';
 // import weather from '../assets/images/project-ss/weather.png';
 import fit from '../assets/images/project-ss/fitconnectss.png';
 import plan from '../assets/images/project-ss/myPlannerSS.png';
+import jos from '../assets/images/project-ss/jos.png';
 
 // import employee from '../assets/images/project-ss/employee-tracker.jpg';
 
 const projects = [
     
+    {
+        id: 1,
+        title: "JOS Kernel",
+        githubLink: "https://github.com/adamboudruh/JOS-Kernel",
+        deployedLink: "https://github.com/adamboudruh/JOS-Kernel",
+        img: jos
+    },
     {
         id: 1,
         title: "myPlanner",
@@ -21,7 +29,7 @@ const projects = [
         id: 2,
         title: "Fit Connect",
         githubLink: "https://github.com/cbursch13/Fit-Connect",
-        deployedLink: "https://fit-connect.onrender.com/",
+        deployedLink: "https://fit-connect-mvpl.onrender.com/",
         img: fit
     },
     {

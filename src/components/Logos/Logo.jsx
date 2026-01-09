@@ -15,6 +15,11 @@ import Node from './Icons/Node';
 import Python from './Icons/Python';
 import ReactIcon from './Icons/React';
 import Git from './Icons/Gith';
+import DotNet from './Icons/DotNet';
+import SqlServer from './Icons/SqlServer';
+import Azure from './Icons/Azure';
+import CSharp from './Icons/CSharp';
+import MaterialUI from './Icons/MaterialUI';
 
 function Logo(props) {
   switch(props.name) {
@@ -50,6 +55,16 @@ function Logo(props) {
       return <ReactIcon />;
     case 'Git':
       return <Git />;
+    case '.NET Core':
+      return <DotNet />;
+    case 'MS SQL Server':
+      return <SqlServer />;
+    case 'Azure':
+      return <Azure />;
+    case 'CSharp':
+      return <CSharp />;
+    case 'Material UI':
+      return <MaterialUI />;
     default:
       return null;
   }
