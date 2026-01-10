@@ -6,6 +6,7 @@ import win from '../assets/images/project-ss/winning-edge.png';
 import fit from '../assets/images/project-ss/fitconnectss.png';
 import plan from '../assets/images/project-ss/myPlannerSS.png';
 import jos from '../assets/images/project-ss/jos.png';
+import nba from '../assets/images/project-ss/nbafaststats.png';
 
 // import employee from '../assets/images/project-ss/employee-tracker.jpg';
 
@@ -19,13 +20,6 @@ const projects = [
         img: jos
     },
     {
-        id: 1,
-        title: "myPlanner",
-        githubLink: "https://github.com/adamboudruh/Boudraa-myPlanner",
-        deployedLink: "https://github.com/adamboudruh/Boudraa-myPlanner",
-        img: plan
-    },
-    {
         id: 2,
         title: "Fit Connect",
         githubLink: "https://github.com/cbursch13/Fit-Connect",
@@ -34,20 +28,34 @@ const projects = [
     },
     {
         id: 3,
+        title: "myPlanner",
+        githubLink: "https://github.com/adamboudruh/Boudraa-myPlanner",
+        deployedLink: "https://github.com/adamboudruh/Boudraa-myPlanner",
+        img: plan
+    },
+    {
+        id: 4,
+        title: "NBA Fast Stats",
+        githubLink: "https://github.com/adamboudruh/NBA_Fast_Stats",
+        deployedLink: "https://github.com/adamboudruh/NBA_Fast_Stats",
+        img: nba
+    },
+    {
+        id: 5,
         title: "Blog Page",
         githubLink: "https://github.com/adamboudruh/Boudraa-Blog-Page",
         deployedLink: "https://evening-tundra-87710-7eb66c5c7750.herokuapp.com/",
         img: blog
     },
     {
-        id: 4,
+        id: 6,
         title: "Social Network REST API",
         githubLink: "https://github.com/adamboudruh/Boudraa-Social-Network-API",
         deployedLink: "https://github.com/adamboudruh/Boudraa-Social-Network-API",
         img: social
     },
     {
-        id: 5,
+        id: 7,
         title: "Winning Edge",
         githubLink: "https://github.com/adamboudruh/Group-1-Winning-Edge",
         deployedLink: "https://pacific-shelf-77218-ba08c8175600.herokuapp.com/",
